@@ -1,0 +1,31 @@
+.icono {
+  color: #be5683;
+  font-size: 2rem;
+  margin-left: 0.1rem;
+}
+.input {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 1rem;
+  width: 35vw;
+  font-family: Roboto, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #838383;
+  background-color: none;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input::placeholder {
+  font-family: Roboto, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ad9d9d;
+}
+.btn {
+  border: none;
+  background-color: #848ccf;
+}
