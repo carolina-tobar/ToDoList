@@ -1,7 +1,7 @@
 .icono {
   color: #be5683;
   font-size: 2rem;
-  margin-left: 0.1rem;
+  margin-left: -3rem;
 }
 .input {
   padding: 0.8rem;
@@ -28,4 +28,52 @@ input::placeholder {
 .btn {
   border: none;
   background-color: #848ccf;
+}
+
+.tareas {
+  background-color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #3d3d3d;
+  padding: 0.8rem;
+  list-style: none;
+  border-radius: 1rem;
+  width: 35vw;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trashcan {
+  font-size: 1.5rem;
+}
+.checkbox {
+  height: 1rem;
+  width: 1rem;
+}
+.btn-trashcan {
+  background-color: white;
+  border: none;
+}
+
+.filtros {
+  background-color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #3d3d3d;
+  padding: 0.8rem;
+  list-style: none;
+  border-radius: 1rem;
+  width: 35vw;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-filtros {
+  padding: 0.5rem 0.8rem;
+  border-radius: 1.5rem;
+  border: none;
 }
