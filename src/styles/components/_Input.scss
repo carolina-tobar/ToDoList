@@ -1,5 +1,5 @@
 .icono {
-  color: #be5683;
+  color: #e84a5f;
   font-size: 2rem;
   margin-left: -3rem;
 }
@@ -7,7 +7,7 @@
   padding: 0.8rem;
   border: none;
   border-radius: 1rem;
-  width: 35vw;
+  width: 38vw;
   font-family: Roboto, sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
@@ -39,7 +39,7 @@ input::placeholder {
   padding: 0.8rem;
   list-style: none;
   border-radius: 1rem;
-  width: 35vw;
+  width: 38vw;
   margin-top: 0.5rem;
   display: flex;
   justify-content: space-between;
@@ -66,14 +66,36 @@ input::placeholder {
   padding: 0.8rem;
   list-style: none;
   border-radius: 1rem;
-  width: 35vw;
+  width: 38vw;
   margin-top: 0.5rem;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .btn-filtros {
   padding: 0.5rem 0.8rem;
   border-radius: 1.5rem;
   border: none;
+}
+.btn-filtros--incompletas {
+  font-family: Roboto, sans-serif;
+  background-color: #e84a5f;
+  font-weight: 500;
+  color: white;
+}
+.btn-filtros--completas {
+  font-family: Roboto, sans-serif;
+  background-color: #616060;
+  font-weight: 500;
+  color: white;
+}
+.btn-filtros--todas {
+  font-family: Roboto, sans-serif;
+  background-color: #ff847c;
+  font-weight: 500;
+  color: white;
+}
+.icono-clase {
+  font-size: 2rem;
 }
